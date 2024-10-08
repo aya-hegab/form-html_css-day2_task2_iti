@@ -1,0 +1,46 @@
+label,
+h1 {
+  color: white;
+}
+img {
+  border-radius: 50%;
+}
+
+h1::first-letter {
+  font-size: 80px;
+}
+input[placeholder] {
+  width: 100%;
+}
+form {
+  width: 300px;
+  margin: auto;
+  /* background: black; */
+  /* opacity: 0.5; */
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+input[type="submit"] {
+  width: 200px;
+  height: 50px;
+  background: brown;
+  border-radius: 15px 15px;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: green;
+}
+.center {
+  margin-left: 15%;
+}
+body {
+  background-image: url(forest.jpg);
+}
